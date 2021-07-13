@@ -1,0 +1,12 @@
+{% extends 'base.html' %} {% block one %}
+
+<h2>List if snacks</h2>
+<ul>
+    {%for snacks in object_list %}
+    <li>
+        <a href="{% url 'detail' snacks.pk %}">{{ snacks.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
+
+{% endblock one %}
