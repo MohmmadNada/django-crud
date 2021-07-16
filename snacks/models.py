@@ -7,7 +7,7 @@ class Snack (models.Model):
     title= models.CharField(max_length=64)
     purchaser =models.CharField(max_length=64)
     description=models.TextField()
-    def __Str__(self):
+    def __str__(self):
         return self.title
     def get_absolute_url (self):
             # Go to home page AFTER ADDED
