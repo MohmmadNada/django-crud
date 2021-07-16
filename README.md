@@ -1,1 +1,1 @@
-[pull req ](https://github.com/MohmmadNada/django-crud/pull/1)
+[pull req ](https://github.com/MohmmadNada/django-crud/pull/2)
